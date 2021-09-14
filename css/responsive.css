@@ -1,0 +1,108 @@
+
+/*  i pad */
+@media only screen and (max-width:768px){ 
+
+    .container{
+        width: 90%;
+    } 
+    .main-area{
+        padding:80px 0;
+    } 
+    .main-area .login-box{
+        width: 100%;
+        box-sizing: border-box;
+        
+    } 
+    .main-area .login-box input[type="text"],
+    .main-area .login-box input[type="password"] {
+        padding: 13px;
+        font-size: 16px;
+    } 
+    .main-area .facebook-image img{
+            width: 210px;
+    } 
+    .main-area .facebook-help h3{
+        font-size: 20px;
+        margin: 0px 0 0 22px;
+    } 
+    .main-area .login-box input[type="submit"]{
+        font-size: 16px;
+    } 
+    .main-area .login-box .forgot-btn{
+        text-decoration: none;
+        font-size: 16px;
+    }
+    .main-area .login-box .create-btn{
+        font-size: 15px;
+    } 
+    .main-area .facebook-help h3{
+       font-size: 18px;
+    }  
+
+    .main-area .facebook-image img{
+         width: 210px;
+        text-align: center;
+         margin-top: 10px;
+
+    } 
+
+}
+
+
+
+@media only screen and (max-width:480px){
+    .container{
+        width: 100%;
+    }
+    .flex{
+        flex-direction: column;
+    } 
+
+    .main-area{
+        padding:10px 0;
+        text-align: center;
+    } 
+    .footer-area .container{
+        width: 90%;
+        margin:auto;
+    } 
+    
+
+        .main-area .login-box input[type="text"],
+        .main-area .login-box input[type="password"] {
+            padding: 10px;
+            font-size: 14px;
+        } 
+        .main-area .login-box input[type="submit"]{
+            font-size: 14px;
+        }
+        .main-area .facebook-help h3{
+            display: none;
+        } 
+
+            .main-area .facebook-image img{
+                width: 110px;
+                text-align: center;
+                 margin-top: 10px;
+
+            } 
+        .main-area .login-box{
+            padding:10px 10px;
+        } 
+
+
+        .main-area .login-box .forgot-btn{
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .main-area .login-box .create-btn{
+            font-size: 14px;
+        }
+        .footer-area .custom-links ul{
+            display: none;
+        } 
+        .none{
+            display: none;
+        }
+
+}

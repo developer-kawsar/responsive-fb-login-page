@@ -1,0 +1,198 @@
+*{
+    
+    padding: 0;
+
+} 
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+/* ==================
+   common start
+================== */ 
+.w-50{
+    /* width: 50%; */
+    /* float: left; */
+    box-sizing: border-box; 
+    flex-basis: 50%;
+    
+
+} 
+.flex{
+    display: flex; 
+} 
+.justify-between{
+    justify-content: space-between;
+  
+}
+
+/* ================
+   common end
+================== */ 
+
+
+/* ================
+   main area start
+================== */ 
+.container{
+    max-width: 1110px;
+    width: 80%;
+    margin: auto;
+    
+    /* overflow: hidden; */ 
+
+    
+}
+.main-area{
+    background-color: #F0F2F5; 
+    overflow: hidden; 
+    padding: 130px 0;
+}
+.main-area .facebook-image img{
+    width: 310px;
+    height: auto;
+    margin-top: 30px;
+}
+.main-area .facebook-help h3{
+    margin: -10px 0 0 30px;
+    font-size: 25px;
+    font-weight: normal;  
+
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    line-height: 32px;
+    color: #1c1e21;
+}
+ 
+.main-area .login-box{
+    background-color: #fff; 
+    padding: 15px 20px; 
+    text-align: center;
+    box-shadow: 0 0 0 red;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    
+}
+.main-area .login-box input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.main-area .login-box input[type="text"],
+.main-area .login-box input[type="password"]
+{
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 5px; 
+    margin-bottom: 10px;
+    border: 1px solid #666;
+    outline: 0;
+}  
+
+.main-area .login-box input[type="submit"]{
+
+    background-color: royalblue;
+    border: none; 
+    color: white;
+    font-weight: bold;
+    padding: 10px 0;
+    border-radius: 4px;
+    font-size: 18px; 
+    margin-bottom: 10px;
+    cursor: pointer;
+
+} 
+.main-area .login-box .forgot-btn{
+    text-decoration: none; 
+    
+}
+.main-area .login-box .forgot-btn:hover{
+    text-decoration: underline;
+} 
+.main-area .login-box .create-btn{
+    text-decoration: none; 
+    background-color: limegreen;
+    color: white;
+    display: inline-block;
+    padding: 12px;
+    font-weight: bold; 
+    border-radius: 5px;
+    
+}
+.main-area .login-box .create-btn:hover{
+    
+} 
+.line{
+    border-top: 1px solid gray;
+    margin: 12px 0;
+}
+::placeholder{
+    color: #666;
+} 
+
+
+.main-area .create-page{
+    text-align: center; 
+    margin-top: 20px;
+} 
+.main-area .create-page p{
+    color: #444;
+    font-size: 14px;
+}
+.main-area .create-page a{
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+}
+.main-area .create-page a:hover{
+    text-decoration: underline;
+ 
+}
+
+/* ================
+   main area end
+================== */ 
+
+
+
+/* ================
+   footer area starat 
+================== */ 
+.footer-area{
+    padding-top: 20px;
+} 
+.footer-area ul{
+    overflow: hidden;
+}
+.footer-area .languages ul,
+.footer-area .custom-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.footer-area .languages ul li ,
+.footer-area .custom-links ul li{
+    float: left; 
+    margin-right: 15px;
+} 
+.footer-area .languages ul li a,
+.footer-area .custom-links ul li a{
+    text-decoration: none;
+    color: #444;
+    font-size: 14px;
+} 
+
+.footer-area .languages ul li a:hover,
+.footer-area .custom-links ul li a:hover{
+  text-decoration: underline;
+}
+
+.footer-area .copyright{
+    font-size: 14px;
+    color: #333;
+    margin-top: 45px;
+}
+ 
